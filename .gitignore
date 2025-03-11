@@ -1,0 +1,29 @@
+# .gitignore
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore token & local DB
+data/token.pickle
+data/photos_map.json
+data/credentials.json
+
+# Virtual environment
+venv/
+.venv/
+
+# macOS specific
+.DS_Store
+
+# Python egg info
+*.egg-info/
+
+# Personal or sensitive data
+data/credentials.json
+data/token.json
+data/photos_map.json
+
+# Optional: if you create logs or temp files
+logs/
+*.log
